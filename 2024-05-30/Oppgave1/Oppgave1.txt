@@ -1,0 +1,10 @@
+input: 
+dotnet run 6 5
+
+output:
+######
+#    #
+#    #
+#    #
+######
+Areal: 30

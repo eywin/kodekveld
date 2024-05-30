@@ -1,0 +1,28 @@
+Oppgave2:
+
+Les en fil i formatet:
+x,y
+x,y
+x,y
+x,y
+... osv (se fila example.box)
+
+parse denne filen og opprett instanser av klassen Box (Beskrivelse av Box-klassen er lengre ned)
+der hver linje er en Box og det første sifferet er x og det andre er y
+Box-objektene skal legges i en List<Box>
+
+loop igjennom lista av med og kall på box'ens ToString() og Areal metoder og skriv ut resultatene
+
+Lykke til :)
+
+
+Defninisjon av Box-klassen:
+Box har to instansvariabler (eller properties) int x og int y
+disse skal kun kunne settes i konstruktørmetoden til Box, altså når klassen blir "new'a"
+ 
+Box har to metoder:
+Den ene skal være en overload av ToString()-metoden.
+     Den skal returnere en string som inneholder en tegning av boksen
+
+den andre er heter GetArea, den returnerer en int som da er arealet av boksen
+- for gøy kan du implementere omkrets eller watevr ;) slå dæ laus
