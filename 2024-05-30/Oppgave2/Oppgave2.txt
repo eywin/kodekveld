@@ -1,14 +1,14 @@
 Oppgave2:
 
 Les en fil i formatet:
-x,y
-x,y
-x,y
-x,y
+<Width>,<Height>
+<Width>,<Height>
+<Width>,<Height>
+<Width>,<Height>
 ... osv (se fila example.box)
 
 parse denne filen og opprett instanser av klassen Box (Beskrivelse av Box-klassen er lengre ned)
-der hver linje er en Box og det første sifferet er x og det andre er y
+der hver linje er en Box og det første sifferet er Width og det andre er Height
 Box-objektene skal legges i en List<Box>
 
 loop igjennom lista av med og kall på box'ens ToString() og Areal metoder og skriv ut resultatene
