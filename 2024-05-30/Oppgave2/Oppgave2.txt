@@ -16,7 +16,7 @@ loop igjennom lista av med og kall på box'ens ToString() og Areal metoder og sk
 Lykke til :)
 
 
-Defninisjon av Box-klassen:
+Definisjon av Box-klassen:
 Box har to instansvariabler (eller properties) int x og int y
 disse skal kun kunne settes i konstruktørmetoden til Box, altså når klassen blir "new'a"
  
