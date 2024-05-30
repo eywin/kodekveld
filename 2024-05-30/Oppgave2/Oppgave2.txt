@@ -17,7 +17,7 @@ Lykke til :)
 
 
 Defninisjon av Box-klassen:
-Box har to instansvariabler (eller properties) int x og int y
+Box har to instansvariabler (eller properties) int Width og int Height
 disse skal kun kunne settes i konstruktørmetoden til Box, altså når klassen blir "new'a"
  
 Box har to metoder:
