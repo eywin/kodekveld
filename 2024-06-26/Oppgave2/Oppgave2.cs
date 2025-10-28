@@ -17,6 +17,50 @@ public class Oppgave2
 {
     public static void Oppgave()
     {
+        Console.WriteLine("hva er inntekten din?");
+        string inntektStr = Console.ReadLine();
+
+        double inntekt = GetDouble(inntektStr);
+
+        double tax10 = CalcTax10Percent(inntekt);
+        double tax30 = CalcTax30Percent(inntekt);
         
+        Console.WriteLine($"inntektskatt under 10000: {tax10}");
+        Console.WriteLine($"inntektskatt over  10000: {tax30}");
+        Console.WriteLine($"inntektskatt total: {tax10 + tax30}");
+        
+    }
+
+    
+    public static double CalcTax30Percent(double income)
+    {
+        if (income < 10000) return 0;
+
+        return (income - 10000) * 0.1;
+    }
+
+
+    public static double CalcTax10Percent(double income)
+    {
+        if (income <= 10000) return income * 0.1;
+
+        return 1000;
+    }
+    public static double GetDouble(string numberAsStr)
+    {
+        try
+        {
+            return Convert.ToDouble(numberAsStr);
+        }
+        catch (FormatException e)
+        {
+            Console.WriteLine("not correctly formatted!");
+            throw;
+        }
+        catch (OverflowException e)
+        {
+            Console.WriteLine("number too big!");
+            throw;
+        }
     }
 }

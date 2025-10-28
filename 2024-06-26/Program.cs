@@ -1,3 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using _2024_06_26.Oppgave1;
+using _2024_06_26.Oppgave2;
 
-Console.WriteLine("Hello, World!");
+Oppgave2.Oppgave();
