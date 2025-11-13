@@ -7,7 +7,7 @@ string navn = ØyvindsReadLine("Hva heter du?");
 
 int alderSomTall = ReadNumber("Hvor gammel er du?");
 
-if (alderSomTall > 40)
+if (alderSomTall > 50)
 {
     Console.WriteLine($"Hei, {navn}. Du er skikkelig gammal!!");
 }
